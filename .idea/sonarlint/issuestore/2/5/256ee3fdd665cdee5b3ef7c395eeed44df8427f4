@@ -1,0 +1,14 @@
+
+U	java:S106,"9Replace this use of System.out or System.err by a logger.(ÿÙâ·8¿ÏìÚ¿.
+U	java:S1062"9Replace this use of System.out or System.err by a logger.(¢İ‰ú8ĞÉçÚ¿.
+e
+java:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(»¥ÏÉ8ï¥ØÚ¿.
+i
+java:S2095+"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(ÊõŞàşÿÿÿÿ8ĞÉçÚ¿.
+U	java:S106-"9Replace this use of System.out or System.err by a logger.(È©ƒ«8İöîÚ¿.
+d
+java:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(Êë‹8ï¥ØÚ¿.
+Z
+java:S1197"8Move the array designator from the variable to the type.(¡şÏÖøÿÿÿÿ8ï¥ØÚ¿.
+]	java:S125"<This block of commented-out lines of code should be removed.(Ïò¹ùùÿÿÿÿ8ï¥ØÚ¿.
+Z	java:S106("9Replace this use of System.out or System.err by a logger.(³ğ¸ûÿÿÿÿ8­£çÚ¿.

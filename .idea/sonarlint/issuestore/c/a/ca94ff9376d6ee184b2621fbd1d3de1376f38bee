@@ -1,0 +1,11 @@
+
+i
+java:S2095"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(ÊõŞàşÿÿÿÿ8Õ©ÁÚ¿.
+Z
+java:S1197"8Move the array designator from the variable to the type.(¡şÏÖøÿÿÿÿ8®Á¾Ú¿.
+d
+java:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(Êë‹8®Á¾Ú¿.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(×Ô›¾8Õ©ÁÚ¿.
+e
+java:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(»¥ÏÉ8®Á¾Ú¿.
+]	java:S125"<This block of commented-out lines of code should be removed.(Ïò¹ùùÿÿÿÿ8®Á¾Ú¿.

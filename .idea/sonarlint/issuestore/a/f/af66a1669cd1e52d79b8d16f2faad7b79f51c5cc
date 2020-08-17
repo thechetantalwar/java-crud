@@ -1,0 +1,16 @@
+
+Z
+java:S1197"8Move the array designator from the variable to the type.(¡şÏÖøÿÿÿÿ8ó­³¿.
+U	java:S106 "9Replace this use of System.out or System.err by a logger.(¹ßÅ¤8Çà”³¿.
+n
+java:S1192"QUse already-defined constant 'JDBC_DRIVER' instead of duplicating its value here.(ğ¿Éí8åâ´³¿.
+d
+java:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(Êë‹8Œ”³¿.
+Z	java:S106!"9Replace this use of System.out or System.err by a logger.(¡êñüûÿÿÿÿ8Çà”³¿.
+i
+java:S2095"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(ÊõŞàşÿÿÿÿ8Â“³¿.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(¯Æÿâ8Œ”³¿.
+e
+java:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(»¥ÏÉ8û³¿.
+U	java:S106""9Replace this use of System.out or System.err by a logger.(Ş ®¬8Çà”³¿.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Ô²À¯ûÿÿÿÿ8û³¿.
