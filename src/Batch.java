@@ -2,16 +2,20 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.Statement;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
 
 public class Batch {
-    //static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
+    //Defining DB URL
     static final String DB_URL = "jdbc:mysql://localhost/db";
+    static Logger logger = Logger.getLogger(Batch.class.getName());
 
     //  Database credentials
     static final String USER = "root";
     static final String PASS = "12345678";
 
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         Connection conn = null;
         Statement stmt = null;
         try {
@@ -36,13 +40,16 @@ public class Batch {
 
             int[] count = stmt.executeBatch();
             conn.commit();
+            logger.setLevel(Level.INFO);
+            logger.info( "fdd "+count);
 
-            System.out.println(count);
+
+
 
             sql = "select * from users";
             ResultSet rs = stmt.executeQuery(sql);
-            System.out.println("Name \tCity \t Id");
-            System.out.println("------------------");
+            System.err.println("Name \tCity \t Id");
+            System.err.println("------------------");
             while(rs.next()){
                 int id = rs.getInt("id");
                 String name = rs.getString("name");

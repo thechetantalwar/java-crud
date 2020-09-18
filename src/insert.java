@@ -1,10 +1,10 @@
 import java.sql.Connection;
 import java.sql.DriverManager;
-import java.sql.ResultSet;
 import java.sql.Statement;
 
 public class insert {
-    //static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
+
+    //DB Connection
     static final String DB_URL = "jdbc:mysql://localhost/doctor";
 
     //  Database credentials
@@ -30,6 +30,9 @@ public class insert {
         catch (Exception e)
         {
             e.printStackTrace();
+        }
+        finally{
+            //something needed to be done here
         }
     }
 }

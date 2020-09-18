@@ -1,11 +1,8 @@
 
-e
-java:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(»¥ÏÉ8÷ÿêÓ¿.
-K
-java:S1128"/Remove this unused import 'java.sql.ResultSet'.(ˆóÚw8ğùóÓ¿.
-Z
-java:S1197"8Move the array designator from the variable to the type.(¡şÏÖøÿÿÿÿ8÷ÿêÓ¿.
-]	java:S125"<This block of commented-out lines of code should be removed.(Ïò¹ùùÿÿÿÿ8ĞØìÓ¿.
-d
-java:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(Êë‹8÷ÿêÓ¿.
-g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(…£Ê¢ûÿÿÿÿ
+]
+java:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(Êë‹
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(…£Ê¢ûÿÿÿÿ
+S
+java:S1197"8Move the array designator from the variable to the type.(¡şÏÖøÿÿÿÿ
+^
+java:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(»¥ÏÉ
