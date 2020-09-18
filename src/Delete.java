@@ -7,7 +7,7 @@ public class Delete {
 
     static final String DB_URL = "jdbc:mysql://localhost/doctor";
 
-    //  Database credentials
+    //  Database credentials Added Here
     static final String USER = "root";
     static final String PASS = "12345678";
 
